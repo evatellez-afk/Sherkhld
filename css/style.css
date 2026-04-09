@@ -1,0 +1,260 @@
+:root{
+    --azul1: #225A76; 
+    --azul2: #3FCEF6;
+    --azul3: #318EAD;
+    --azul4: #A7E7F6;
+    --blanco: #EFF1F3;
+    --negro: #000000;
+}
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+@media (min-width: 760px) {
+   
+}
+
+.archivo-black-regular {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+html{font-size: 62.5%;}
+body{ font-size: 16PX;
+background-image: linear-gradient(to top,#A7E7F6 0%,  #3FCEF6 100% );}
+
+h1{text-align: center;
+   font-size: 2rem;
+   width: 3.8rem;
+}
+
+h1, h2, h3{
+    text-align: center;
+}
+
+span{
+    font-size: 2rem;
+}
+.titulo{
+    text-align: center;
+    font-size: 3.8rem;
+    color: var(--azul1)
+}
+.titulo span{
+    font-size: 2rem;
+    color: var(--negro);
+
+}
+
+
+.contenedor{
+    width: 120rem;
+    margin: 0 auto;
+}
+
+.nav-bg{ 
+    background-color: var(--azul3);
+}
+
+.navegacion-principal
+{background-color: var(--azul3);
+  padding: 1 rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media (min-width: 768px) {
+   .navegacion-principal{
+       flex-direction: row;
+       justify-content: space-between;
+   }
+}
+
+.navegacion-principal a{ 
+    color: #EFF1F3;
+    text-decoration: none; 
+    font-size: 2 rem;
+    font-weight: 900;
+}
+
+.navegacion-principal a:hover{
+    color: aquamarine;
+    font-size: 2 rem;
+    background-color: #A7E7F6;
+    font-weight: 900;
+    padding: 1 rem;
+    border-radius: 5px;
+}
+
+.hero{
+    background-image: url(../img/6513-shrek.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.Contenido-hero{ 
+    position: absolute;
+    background-color: rgba(9, 123, 3, 0.427);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Contenido-hero .ubicacion{
+    display: flex;
+    align-items: flex-end;
+}
+
+.Contenido-hero h2{
+    color: #EFF1F3;
+}
+
+.Contenido-hero p{
+    color: #39a7c0;
+}
+
+.boton{
+    background-color: rgb(15, 82, 4);
+    color: #eceeef;
+    padding: 1rem 3rem;
+    margin-top: 2rem;
+    font-size: 2rem;
+    text-decoration: none;
+    text-transform:uppercase;
+    border-radius: .5rem;
+    width: 90%;
+    text-align: center;
+}
+
+.sombra{
+    background-color: #74c4d8;
+    padding: 2rem;
+}
+
+.servicios{
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    column-gap: 2rem;
+}
+
+.servicio{
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.servicio h3{
+    color: var(--azul3);
+}
+.servicio p{
+    line-height: 2;
+    text-align: center;
+}
+
+.servicio .icono{
+    height: 15rem;
+    width: 15rem;
+    background-color:var(--azul1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contenedor {
+    padding: 40px;
+    text-align: center;
+}
+
+.titulo {
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+.contenedor-servicios {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.servicio {
+    width: 220px;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.icono {
+    width: 100px;
+    height: 100px;
+    background-color: #1f4d3b;
+    border-radius: 50%;
+    margin: 0 auto 10px auto;
+}
+
+.servicio h3 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.servicio p {
+    font-size: 14px;
+}
+
+.mundo {
+    display: flex;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.texto {
+    width: 50%;
+    padding: 20px;
+}
+
+.imagen {
+    width: 50%;
+    height: 200px;
+    background-color: #225A76;
+    border-radius: 10px;
+}
+
+
+.teoria {
+    width: 60%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.teoria h3 {
+    margin-bottom: 10px;
+}
+
+.teoria p {
+    margin-bottom: 15px;
+}
+
+.imagen-teoria {
+    width: 100%;
+    height: 200px;
+    background-color: #225A76;
+    border-radius: 10px;
+}
